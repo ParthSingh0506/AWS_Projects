@@ -4,8 +4,8 @@
 
 1. First create an EC2 instance 
 2. Download these all files using wget and place them inside your ec2 like this
- wget https://raw.githubusercontent.com/ParthSingh0506/AWS_Projects/main/ML-WebApp/web_app.py
- (You can also put all these files in S3 and copy them, but it is very time consuming.)
+   "wget https://raw.githubusercontent.com/ParthSingh0506/AWS_Projects/main/ML-WebApp/web_app.py"
+ (You can also put all these files in S3 and copy them inside your EC2, but it is very time consuming.)
  
  ![image](https://user-images.githubusercontent.com/36064077/166891354-5ed22be3-6033-45b9-95ed-e5b913aadd44.png)
 
