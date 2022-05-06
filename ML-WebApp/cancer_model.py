@@ -28,14 +28,3 @@ joblib.dump(classifier,'cancer.pkl')
 mod = joblib.load('cancer.pkl')
 y_pred = classifier.predict(X_test)
 print(y_pred)
-
-#Making of Confusion Matrix 
-from sklearn.metrics import confusion_matrix
-cm = confusion_matrix(y_pred,y_test)
-print(cm)
-s = (104+59)/(103+59+4+5)
-
-from sklearn.model_selection import cross_val_score
-accuracies = cross_val_score(estimator = classifier, X = X_train, y = y_train, cv = 10)
-print("Accuracy: {:.2f} %".format(accuracies.mean()*100))
-print("Standard Deviation: {:.2f} %".format(accuracies.std()*100))
