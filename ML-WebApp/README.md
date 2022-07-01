@@ -1,6 +1,6 @@
 # This web app predicts whether a patient's cancer is Benign or Malignant and it is deployed on AWS.
-### For more understanding this project in depth refer this:- https://www.analyticsvidhya.com/blog/2022/05/creating-an-ml-web-app-and-deploying-it-on-aws/
-## Follow these steps for deploying and running this
+### If you don't know about AWS or you want to understand this project in depth refer this article that I wrote:- https://www.analyticsvidhya.com/blog/2022/05/creating-an-ml-web-app-and-deploying-it-on-aws/
+## __Follow these steps for deploying and running this
 
 1. First create an EC2 instance 
 2. Download these all files using wget and place them inside your ec2 like this
